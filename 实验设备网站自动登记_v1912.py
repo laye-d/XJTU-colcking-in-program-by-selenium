@@ -14,7 +14,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 import time
 
 #*************信息****************
-url = "http://119.23.30.128/login/"
+url = "http://xxx.xxx.xxx.xxx/login/"
 username = "username"
 pwd = "password"
 #********************************
