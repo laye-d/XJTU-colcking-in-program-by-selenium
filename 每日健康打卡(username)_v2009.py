@@ -37,6 +37,7 @@ def resource_path(relative_path):
 def run ():
     print(">> Running.")
     browser = webdriver.Chrome(resource_path('./SeleniumDriver/chromedriver.exe'))
+    browser.maximize_window()  #浏览器最大化
 
     while True:
         try:
